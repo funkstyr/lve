@@ -7,9 +7,9 @@ const Footer = () => {
       </span>
 
       <a
-        href="https://luihnfoodsystems.sharepoint.com/sites/LVEConnect/SitePages/Home.aspx"
-        target="_blank"
-        rel="noreferrer"
+        href='https://luihnfoodsystems.sharepoint.com/sites/LVEConnect/SitePages/Home.aspx'
+        target='_blank'
+        rel='noreferrer'
       >
         LVE Connect
       </a>
