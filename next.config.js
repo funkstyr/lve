@@ -13,6 +13,12 @@ const config = {
 
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 
+  // bypass image optimization check for export
+  images: {
+    loader: "imgix",
+    path: "https://noop/",
+  },
+
   webpack: (config, { dev, isServer }) => {
     // Replace React with Preact only in client production build
     if (!dev && !isServer) {
